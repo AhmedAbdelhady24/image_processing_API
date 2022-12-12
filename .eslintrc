@@ -1,0 +1,24 @@
+{
+    "root": true,
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": 2 ,
+      "no-use-before-define": ["error", { "functions": true, "classes": true }],
+      "no-var": 0,
+      "prefer-const": "error"
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true ,
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    }}
